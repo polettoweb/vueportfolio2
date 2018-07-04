@@ -1,0 +1,63 @@
+.blog {
+    &--home {
+        @include centerContainer;
+        @include flexBasic(space-evenly, row, wrap);
+        min-height: 80vh;
+        padding: 150px 10px 0;
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: $text-color-light;
+            width: 100%;
+            text-shadow: 0 0 0 white;
+        }
+        article {
+            width: 310px;
+            margin-top: -300px ;
+            margin-bottom: 10px;
+            
+            &:hover {
+                figure {
+                    transform: scale(0.95); 
+                }
+                
+            }
+            &:nth-child(even) {
+              .blog--text {
+                  background-color: lighten($azure, 10%);
+              }  
+            }
+            &:nth-child(odd) {
+              .blog--text {
+                  background-color: lighten($purple, 10%);
+              }  
+            }
+            h2 {
+                padding-bottom: 0;
+                margin: 10px 0;
+                color: $text-color;
+                max-width: 250px;
+                text-align: center;
+            }
+
+
+        }
+        figure {
+            width: 250px;
+            height: 250px;
+            transition: all 0.5s ease-in-out;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+    &--text {
+        max-width: 240px;
+        margin-top: 10px;
+        padding: 5px;
+    }
+}
