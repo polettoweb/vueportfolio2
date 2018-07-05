@@ -5,25 +5,26 @@ import Portfolio from './views/Portfolio.vue';
 import Workshop from './views/Workshop.vue';
 import Resume from './views/Resume.vue';
 import Blog from './views/Blog.vue';
-import Single from './views/Blog.vue';
+import Single from './views/Single.vue';
 
 // import About from './views/About.vue'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [{
       path: '/',
       name: 'Home',
       component: Home
     },
     {
-      path: '/portfolio',
+      path: '/portfolio/',
       name: 'Portfolio',
       component: Portfolio
     },
     {
-      path: '/blog',
+      path: '/blog/',
       name: 'blog',
       component: Blog
     },
@@ -33,15 +34,14 @@ export default new Router({
       component: Single
     },
     {
-      path: '/workshop',
+      path: '/workshop/',
       name: 'Workshop',
       component: Workshop
     },
     {
-      path: '/resume',
+      path: '/resume/',
       name: 'resume',
       component: Resume
     }
-  ],
-  mode: 'history'
+  ]
 })
