@@ -9,8 +9,7 @@
             <div class="blog-cat__title">
                 <h2 >{{article.title}}</h2>
             </div>
-            <div class="blog-cat__text">
-                <p>{{article.content}}</p>
+            <div class="blog-cat__text" v-html="article.content">
             </div>
         </article>
     </div>
@@ -22,10 +21,6 @@ export default {
             loading: true,
             articles: []
         }
-    },
-    methods: {
-        
-        
     },
     created() {
         fetch('https://marcopolettouk.firebaseio.com/articles/.json')
