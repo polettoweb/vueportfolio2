@@ -1,7 +1,7 @@
 <template>
         <section class="resume__container">
         <section class="experience__container">
-          <h3>Experience</h3>
+          <h1>Experience</h1>
           <ul class="experience">
              <ExpCard
               number="odd first"

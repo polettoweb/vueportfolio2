@@ -9,7 +9,7 @@
               <a href="mailto:marco@marcopoletto.co.uk" title="Contact me via email"><i class="ion-email"></i></a>
           </div>
           <div class="home__me">
-              <h1>Hello, my name is Marco, I'm a <strong>Web Developer </strong>and a <strong>Frontend </strong><strong>Software Engineer</strong>.</h1><p> I create websites from scratch using the latest cutting edge web technologies. <strong>Innovation</strong>, <strong>clean code</strong> and <strong>pixel perfect</strong> results characterize all my projects. With attention to details, I always deliver the best solution to the clients according to their requirements.</p>
+              <h1>Hello, my name is Marco, I'm a <strong>Web Developer </strong>and a <strong>Frontend </strong><strong>Engineer</strong>.</h1><p> I create websites from scratch using the latest cutting edge web technologies. <strong>Innovation</strong>, <strong>clean code</strong> and <strong>pixel perfect</strong> results characterize all my projects. With attention to details, I always deliver the best solution to the clients according to their requirements.</p>
               <div class="home__buttons">
                 <a class="button" :href="cvHref" target="_blank" rel="noopener noreferrer" title="Download CV">Download CV</a>
                   
