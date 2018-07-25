@@ -17,7 +17,7 @@
                 </nav>
             </div>
             <h2 class="header__name">Marco Poletto</h2>
-            <h3>Frontend Web Developer</h3>
+            <!-- <h3>Frontend Web Developer</h3> -->
         </div>
         <div class="header__logo">
             <img :src="logo" class="logo" alt="logo" />

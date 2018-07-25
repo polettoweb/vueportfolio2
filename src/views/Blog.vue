@@ -9,7 +9,8 @@
             <div class="blog-cat__title">
                 <h2 >{{article.title}}</h2>
             </div>
-            <div class="blog-cat__text" v-html="article.content">
+            <div class="blog-cat__text">
+                <p>{{article.excerpt}}</p>
             </div>
         </article>
     </div>
