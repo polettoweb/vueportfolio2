@@ -29,10 +29,9 @@ export default {
             return res.json();
         })
         .then(res => {
-            console.log(res);
+
             this.articles = res;
         })
-        .catch(error => console.log(error))
         .finally(() => {
             this.loading = false;
         })
