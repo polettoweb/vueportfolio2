@@ -1,9 +1,13 @@
 .blog-cat {
     &__home {
         @include centerContainer;
-        @include flexBasic(space-evenly, row, wrap);
         min-height: 80vh;
-        padding: 100px 10px 0;        
+        padding: 120px 10px 0;        
+    }
+
+    &__container {
+        @include flexBasic(center, row, wrap);
+        padding-top: 20px;
     }
 
     &__post{
@@ -11,7 +15,7 @@
         max-width: 350px;
         text-align: center;
         box-shadow: $box-shadow;
-        margin: 0 10px 80px;
+        margin: 0 20px 80px;
         @media (max-width: 768px) {
             margin: 10px auto;
         }
