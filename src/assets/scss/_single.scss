@@ -18,9 +18,13 @@
         }
     }
     &__post {
-        width: 100%;
+        width: 96%;
         max-width: $max-width;
         font-size: 18px;
+
+        @media (max-width: 1199px) {
+            padding: 0 2%;
+        }
     }
     &__image {
         text-align: center;
@@ -41,6 +45,10 @@
         text-decoration: none;
         color: $ltext;
         font-size: 20px;
+
+        @media (max-width: 1199px) {
+            margin: 20px 2% ;
+        }
 
         &-container {
             @include centerContainer();
