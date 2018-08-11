@@ -1,6 +1,6 @@
 <template>
-    <div class="blog__container">
-        <section v-if="!loading">
+    <div v-if="!loading" class="blog__container">
+        <section>
             <h1>{{article.title}}</h1>
             <div class="blog__image">
                 <img :src="article.image" alt="">
@@ -29,18 +29,10 @@ export default {
             return res.json();
         })
         .then(res => {
-            var data = res.filter(el => {
-                console.log(el);
-                console.log(this.$route.params);
-                return el.slug === this.$route.params.slug;
-            
-            });
-           return data;
-            
+            return res.filter(el => {return el.slug === this.$route.params.slug;});
         })
-        .then((data) => {
-            this.article = data[0];
-            console.log(this.article)
+        .then((res) => {
+            this.article = res[0];
         })
         .finally(() => {
             this.loading = false;
