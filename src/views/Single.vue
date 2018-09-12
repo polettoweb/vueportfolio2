@@ -11,7 +11,7 @@
             
         </section>
         <div class="blog__back-container">
-            <router-link to="/blog" class="blog__back">< Back to blogs</router-link>
+            <router-link to="/blog" class="blog__back">&lt; Back to blogs</router-link>
         </div>
     </div>
 </template>
