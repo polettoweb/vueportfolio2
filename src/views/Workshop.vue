@@ -4,7 +4,7 @@
         <h1>Workshop</h1>
         <PortfolioItem
           text = "Second version of the portfolio using Nuxt.JS as framework."
-          image="../assets/img/nuxtCover.png"
+          image="../assets/img/nuxtCover.jpg"
           tags="Nuxt.JS, Vue.JS, Vuex, Sass"
           link="https://nuxt.marcopoletto.co.uk"
           linkTitle="Marco Poletto Nuxt.JS"
