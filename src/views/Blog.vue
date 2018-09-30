@@ -6,13 +6,13 @@
             <article v-if="!loading" v-for="(article, index) in articles" :key="index" class="blog-cat__post">
                 <router-link :to="`/blog/${article.slug}`" :title="article.slug">
                     <div class="blog-cat__image">
-                        <img :src="article.image" alt="" class="blog-cat__image">
+                        <img :src="article.thumbnail" alt="" class="blog-cat__image">
                     </div>
                     <div class="blog-cat__title">
                         <h2 >{{article.title}}</h2>
                     </div>
                     <div class="blog-cat__text">
-                        <p>{{article.excerpt}}</p>
+                        <p>{{article.previewText}}</p>
                     </div>
                 </router-link>
             </article>

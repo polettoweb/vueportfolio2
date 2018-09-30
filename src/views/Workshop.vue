@@ -3,10 +3,19 @@
       <div class="portfolio__content">
         <h1>Workshop</h1>
         <PortfolioItem
+          text = "Second version of the portfolio using Nuxt.JS as framework."
+          image="../assets/img/nuxtCover.png"
+          tags="Nuxt.JS, Vue.JS, Vuex, Sass"
+          link="https://nuxt.marcopoletto.co.uk"
+          linkTitle="Marco Poletto Nuxt.JS"
+          linkGit="https://github.com/polettoweb/nuxtportfolio"
+          linkGitTitle="Nuxt portfolio Github repository"
+        />
+        <PortfolioItem
           text = "Second version of the portfolio using React.JS as framework."
           image="../assets/img/react.png"
           tags="React.JS, React-router, Sass"
-          link="http://react.marcopoletto.co.uk"
+          link="https://react.marcopoletto.co.uk"
           linkTitle="Marco Poletto React.JS"
           linkGit="https://github.com/polettoweb/reactportfolio"
           linkGitTitle="React portfolio Github repository"
@@ -15,7 +24,7 @@
           text = "Third version of the portfolio using Vue.JS as framework."
           image="../assets/img/vue.jpg"
           tags="Vue.JS, Vuex, Sass"
-          link="http://vue.marcopoletto.co.uk"
+          link="https://vue.marcopoletto.co.uk"
           linkTitle="Marco Poletto Vue.JS"
           linkGit="https://github.com/polettoweb/vueportfolio"
           linkGitTitle="Vue portfolio Github repository"
