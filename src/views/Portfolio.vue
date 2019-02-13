@@ -38,13 +38,6 @@
             linkTitle="The Lantern Tankard"
           />
           <PortfolioItem
-            text="Magento Enterprise eCommerce Website built for the USA branch of BrandyMelville. An High street fashion brand"
-            image="../assets/img/bmusa-portfolio.jpg"
-            tags="Graphic Design, Full Stack Development, Magento, Sass, Javascript, JSON, AJAX, RESTful API"
-            link="http://www.brandymelvilleusa.com"
-            linkTitle="Brandy Melville USA"
-          />
-          <PortfolioItem
             text="Responsive website made on top of Umbraco cms."
             image="../assets/img/stoves-portfolio.jpg"
             tags="Frontend Development, HTML5, Sass, Javascript, jQuery, JSON, AJAX, GoogleMaps API"
@@ -57,13 +50,6 @@
             tags="Graphic Design, Full Stack Development, PHP, Sass, CSS3, Javascript, RESTful API"
             link="http://www.bbvenezia.com"
             linkTitle="B&amp;B Venezia"
-          />
-          <PortfolioItem
-            text="Magento Enterprise eCommerce Website built for the UK branch of BrandyMelville. An High street fashion brand"
-            image="../assets/img/bmuk-portfolio.jpg"
-            tags="Graphic Design, Full Stack Development, Magento, Sass, Javascript, JSON, AJAX, RESTful API"
-            link="http://www.brandymelville.co.uk"
-            linkTitle="Brandy Melville UK"
           />
         </div>
       </div>
